@@ -143,7 +143,7 @@ function draw() {
     button (100,600,500,80,'Cancel'); //2
     button (650,600,500,80,'Choose plan ');//3
   }
-  if (stage>=6 && stage<30){
+  if (stage>=6 && stage<20){
     
     
     
@@ -178,7 +178,7 @@ function draw() {
     textSize(30);
     text('Refresh', 550, 650);
   };
-   if (stage>=30 && stage<33){
+   if (stage>=20 && stage<23){
  
     button (100,600,1050,80,);
     fill (facecolor);
