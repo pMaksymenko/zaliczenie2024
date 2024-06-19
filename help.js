@@ -178,17 +178,17 @@ function draw() {
     textSize(30);
     text('Refresh', 550, 650);
   };
-   if (stage>=30 && stage<32){
+   if (stage>=30 && stage<33){
  
     button (100,600,1050,80,);
     fill (facecolor);
     textSize(30);
-    text('Uh oh! Seems like our server ran into a problem!', 290, height/2-50);
-    text('You tried to unsubscribe too many times.', 330, height/2);
+    text('Uh oh! Seems like our server ran into a problem!', 290, height/2-170);
+    text('You tried to unsubscribe too many times.', 330, height/2-130);
     fill (255);
     text('Unsubscribe manually', 450, 650);
   };
-  if (stage >=32){
+  if (stage >=33){
   window.open ('https://faron012.github.io/mfaronCC/ ', '_self');
   }
   
