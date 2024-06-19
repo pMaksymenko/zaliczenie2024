@@ -188,7 +188,7 @@ function draw() {
     fill (255);
     text('Unsubscribe manually', 450, 650);
   };
-  if (stage >=33){
+  if (stage >=23){
   window.open ('https://faron012.github.io/mfaronCC/ ', '_self');
   }
   
