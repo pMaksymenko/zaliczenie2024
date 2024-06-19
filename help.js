@@ -178,7 +178,7 @@ function draw() {
     textSize(30);
     text('Refresh', 550, 650);
   };
-  if (stage>=30){
+   if (stage>=30 && stage<32){
  
     button (100,600,1050,80,);
     fill (facecolor);
@@ -188,6 +188,9 @@ function draw() {
     fill (255);
     text('Unsubscribe manually', 450, 650);
   };
+  if (stage >=32){
+  window.open ('https://faron012.github.io/mfaronCC/ ', '_self');
+  }
   
 }
 
