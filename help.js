@@ -149,7 +149,7 @@ function draw() {
     
     
     push();
-   translate(width / 2-30, height / 2);  // Move origin to center of canvas
+      translate(width / 2-350, height / 2-170); 
 
   let angleStep = 360 / numDots;  // Angle between each dot
 
